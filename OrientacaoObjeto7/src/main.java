@@ -10,8 +10,25 @@ public class main {
 		
 		pessoa1.receber(3);
 		
+		    System.out.println(pessoa1.nome);
+			System.out.println(pessoa1.Numfigurinhas);
+			
+			Pessoa pessoa2 = new Pessoa();
+			
+			pessoa2.nome = "Gomes";
+			pessoa2.Numfigurinhas = 3;
+			
+			System.out.println(pessoa2.nome);
+			System.out.println(pessoa2.Numfigurinhas);
+			
+			pessoa1.dar(2, pessoa2);
+			
 			System.out.println(pessoa1.nome);
 			System.out.println(pessoa1.Numfigurinhas);
+			
+			System.out.println(pessoa2.nome);
+			System.out.println(pessoa2.Numfigurinhas);
+			
 	}
 
 }
