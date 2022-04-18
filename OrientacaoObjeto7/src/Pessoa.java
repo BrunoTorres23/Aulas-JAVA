@@ -12,8 +12,9 @@ public class Pessoa {
 	{
 		if (this.Numfigurinhas < qtdfig) { // o this.Numfigurinhas foi usado pois como eu já estou dentro dessas
 													// variaveis
-			System.out.println("A troca não pode ser realizada");
 			return false;
+			
+		
 			
 		} else {
 

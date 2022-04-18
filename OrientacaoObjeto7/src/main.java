@@ -21,13 +21,12 @@ public class main {
 		System.out.println(pessoa2.nome);
 		System.out.println(pessoa2.Numfigurinhas);
 
-		boolean retorno = pessoa1.dar(1, pessoa2);
+		boolean retorno = pessoa1.dar(9, pessoa2);
 
 		if (retorno == true) {
+		System.out.println("Atual valor");
 		}
 		pessoa1.dar(5, pessoa2);
-		
-		System.out.println("Atual valor");
 
 		System.out.println(pessoa1.nome);
 		System.out.println(pessoa1.Numfigurinhas);
