@@ -1,3 +1,4 @@
+import java.util.Objects;
 
 public class Cliente {
 	private String nome;
@@ -34,6 +35,23 @@ public class Cliente {
 	@Override
 	public String toString() {
 		return "Cliente: \nnome = " +  nome + ";  \ncpf = " + cpf + ";  \nnumConta = " + numConta + ".";
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(cpf, nome, numConta);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Cliente other = (Cliente) obj;
+		return cpf == other.cpf && Objects.equals(nome, other.nome) && numConta == other.numConta;
 	}
 	
 	

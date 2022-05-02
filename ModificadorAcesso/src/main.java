@@ -38,7 +38,40 @@ public class main {
 //		System.out.println(cliente.getNumConta());
 		
 		System.out.println(cliente);
+		
+ 
+	
+		Cliente cliente2 = new Cliente();
+		
+		cliente2.setNome("Bruno");
+		cliente2.setCpf(48948);
+		cliente2.setNumConta(49846);
+		
+//		cliente2 = cliente1; 
+		
+		System.out.println(cliente2);
+		
+		if (cliente.getNome() == cliente2.getNome()) { //ele pega o nome como comparação com "==" e o get como quesito diferente, é preciso o get, ele compara endereço
+			System.out.println("Os objetos são iguais");
+			
+		} else {
+				System.out.println("Os objetos são diferentes");
+			}
+		
+		
+		if (cliente == cliente2) {
+			System.out.println("os objetos são iguais");
+			
+		} else {
+			System.out.println("os objetos são diferentes");
+		}
+		
+		
+		if(cliente.equals(cliente2)) {
+			System.out.println("os objetos são iguais");
+		} else { 
+			System.out.println("os objetos são diferentes");
 	
 }
-
+	}
 }
