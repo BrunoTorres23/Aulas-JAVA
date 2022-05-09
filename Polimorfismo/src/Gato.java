@@ -6,4 +6,5 @@ public class Gato extends Animal {
 		System.out.println("MIAU");
 	}
 	
+	
 }

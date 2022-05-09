@@ -5,5 +5,11 @@ public class Cachorro extends Animal {
 	public void Falar() {
 		System.out.println("AUAU");
 	}
+
+	public void morder() {
+		System.out.println("NHAC");
+		
+	}
+	
 	
 }

@@ -17,6 +17,10 @@ public class Main {
 	public static void falar(Animal a) {
 		a.Falar();
 		
+		if (a instanceof Cachorro) {
+			Cachorro c = (Cachorro) a;
+			a.morder();
+		}
 	}
 	
 
