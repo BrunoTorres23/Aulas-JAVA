@@ -1,5 +1,7 @@
-
+//a classe abstrata não pode se instanciar um objeto
 public abstract class Item {
+	
+	
 	
 	private int posx;
 	private int posy;
