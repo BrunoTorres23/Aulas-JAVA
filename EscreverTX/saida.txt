@@ -1,0 +1,3 @@
+Mouse [funciona=true, qtdbotoes=3, tamanho=medio]
+Mouse [funciona=false, qtdbotoes=3, tamanho=pequeno]
+Mouse [funciona=true, qtdbotoes=3, tamanho=grande]
