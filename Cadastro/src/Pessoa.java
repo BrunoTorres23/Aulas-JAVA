@@ -1,14 +1,15 @@
 
 public class Pessoa {
 	
-	private String nome, endereco;
+	private String nome;
+	private Endereco endereco;
 	private int idade;
 	
 	private enum Sexo {
 		MASCULINO, FEMININO;
 	}
 	
-	//get and set de mome
+	//get and set de nome
 	public String getNome() {
 		return nome;
 	}
@@ -27,11 +28,11 @@ public class Pessoa {
 	}
 	
 	//get and set de endereco
-	public String getEndereco() {
+	public Endereco getEndereco() {
 		return endereco;
 	}
 
-	public void setEndereco(String endereco) {
+	public void setEndereco(Endereco endereco) {
 		this.endereco = endereco;
 	}
 	
