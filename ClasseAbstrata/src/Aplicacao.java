@@ -14,3 +14,4 @@ public class Aplicacao {
 	}
 
 }
+		//assim item recebe todos esses valores
