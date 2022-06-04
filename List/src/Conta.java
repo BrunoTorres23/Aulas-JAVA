@@ -4,7 +4,7 @@ public class Conta {
 	String nome;
 	double valor;
 	
-	@Override
+	@Override //overide para o tostring
 	public String toString() {
 		return "Conta [nome=" + nome + ", valor=" + valor + "]";
 	}
