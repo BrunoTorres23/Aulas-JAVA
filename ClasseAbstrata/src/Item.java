@@ -1,14 +1,14 @@
-//a classe abstrata n�o pode se instanciar um objeto
+//a classe abstrata não pode se instanciar um objeto
 public abstract class Item {
 	
 	
 	
-	private int posx;
+	private int posx; //criaçaõ de variavel private
 	private int posy;
 	
 	public abstract void pegar (); 
 	
-
+	//geração de getters and setters
 	public int getPosx() {
 		return posx;
 	}
