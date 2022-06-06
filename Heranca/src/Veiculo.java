@@ -6,7 +6,7 @@ public class Veiculo {
 	protected int ano;
 	
 	public void buzinar () {
-		System.out.println("BI BI");
+		System.out.println("BI BI");	
 	}
 	
 	public void imprimir () {
@@ -15,6 +15,7 @@ public class Veiculo {
 		System.out.println("Marca: " + ano);
 	}
 	
+	//getters and setters
 	
 
 	public String getNome() {
