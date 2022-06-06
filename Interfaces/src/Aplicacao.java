@@ -4,7 +4,7 @@ public class Aplicacao {
 	public static void main(String[] args) {
 		
 //		Rota rota = new Rota();
-		Ferrari ferrari = new Ferrari();
+		Ferrari ferrari = new Ferrari();	//instanciamento de ferrari
 //		rota.ir(ferrari);
 //		
 //		System.out.println();
@@ -12,11 +12,11 @@ public class Aplicacao {
 //		Fusca fusca = new Fusca ();
 //		rota.ir(fusca);
 		
-		Vendedor vendedor = new Vendedor ();
-		Apartamento apartamento = new Apartamento();
+		Vendedor vendedor = new Vendedor ();	//instanciamento de vendedor
+		Apartamento apartamento = new Apartamento();	//instanciamento de apartamento
 		
-		vendedor.mostrarPreco(apartamento);
-		vendedor.mostrarPreco(ferrari);
+		vendedor.mostrarPreco(apartamento);	//o vendedor com o metodo de mostrar o preco de apartamento 
+		vendedor.mostrarPreco(ferrari);		//o vendedor com o metodo de mostrar o preco de ferrari
 	}
 
 }
