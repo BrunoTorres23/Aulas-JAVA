@@ -3,9 +3,10 @@ public class main {
 
 	public static void main(String[] args) {
 
-		//vari·vel (nome da classe) + endereÁo = construtor de objeto
+		//vari√°vel (nome da classe) + endere√ßo = construtor de objeto
 		ContaBancaria conta1 = new ContaBancaria();
 		
+		//mostra os atributos de conta
 //		conta1.ativo = true;
 //		conta1.numConta = 1234;
 //		conta1.saldo = 100.50;
@@ -27,6 +28,7 @@ public class main {
 	
 		//System.out.println(conta2.saldo());
 		
+		//instanciamento de objeto e sets de atributos 
 		Cliente cliente = new Cliente();
 		
 		cliente.setNome("Bruno");
@@ -40,7 +42,8 @@ public class main {
 		System.out.println(cliente);
 		
  
-	
+		
+		//instanciamento de objeto e sets de atributos 
 		Cliente cliente2 = new Cliente();
 		
 		cliente2.setNome("Bruno");
@@ -51,26 +54,26 @@ public class main {
 		
 		System.out.println(cliente2);
 		
-		if (cliente.getNome() == cliente2.getNome()) { //ele pega o nome como comparaÁ„o com "==" e o get como quesito diferente, È preciso o get, ele compara endereÁo
-			System.out.println("Os objetos s„o iguais");
+		if (cliente.getNome() == cliente2.getNome()) { //ele pega o nome como compara√ß√£o com "==" e o get como quesito diferente, √© preciso o get, ele compara endere√ßo
+			System.out.println("Os objetos s√£o iguais");
 			
 		} else {
-				System.out.println("Os objetos s„o diferentes");
+				System.out.println("Os objetos s√£o diferentes");
 			}
 		
 		
 		if (cliente == cliente2) {
-			System.out.println("os objetos s„o iguais");
+			System.out.println("os objetos s√£o iguais");
 			
 		} else {
-			System.out.println("os objetos s„o diferentes");
+			System.out.println("os objetos s√£o diferentes");
 		}
 		
 		
 		if(cliente.equals(cliente2)) {
-			System.out.println("os objetos s„o iguais");
+			System.out.println("os objetos s√£o iguais");
 		} else { 
-			System.out.println("os objetos s„o diferentes");
+			System.out.println("os objetos s√£o diferentes");
 	
 }
 	}
