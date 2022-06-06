@@ -2,8 +2,10 @@
 public class Mouse {
 	
 	private boolean funciona;
-	private int qtdbotoes;
+	private int qtdbotoes; 
 	private String tamanho;
+	
+	//constructor
 	public Mouse(boolean funciona, int qtdbotoes, String tamanho) {
 		
 		super();
@@ -13,7 +15,6 @@ public class Mouse {
 		
 	}
 	
-	//override e constructor
 	@Override
 	public String toString() {
 		return "Mouse [funciona=" + funciona + ", qtdbotoes=" + qtdbotoes + ", tamanho=" + tamanho + "]" + "\n";
