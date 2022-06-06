@@ -1,8 +1,8 @@
 
 public class Matematica {
 	
-	public static int somar(int a, int b) { //ele é static quando não muda na aplicação
-		return a+b;
+	public static int somar(int a, int b) { //ele Ã© static quando nÃ£o muda na aplicaÃ§Ã£o
+		return a+b;			//somar Ã© um metodo que esta recbendo inteiro, e vai retornar a + b
 	}
 	
 	public static int subtrair(int a, int b) {
