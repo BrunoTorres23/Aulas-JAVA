@@ -25,7 +25,7 @@ public class Main {
 	 		
 	 		for (Mouse mouse:ListadeMouse) {	//enhanced for lista de mouse
 	 
-	 			escrever.write(mouse.toString()); //mouse vai receber uam string 
+	 			escrever.write(mouse.toString()); //mouse vai receber uma string 
     
 	
     }
