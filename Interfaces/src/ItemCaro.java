@@ -1,5 +1,5 @@
 
 public interface ItemCaro {
 	
-	Double getPreco();
+	Double getPreco();	//item caro vai pegar o preco
 }
