@@ -12,6 +12,8 @@ public class Mouse {
 		this.tamanho = tamanho;
 		
 	}
+	
+	//override e constructor
 	@Override
 	public String toString() {
 		return "Mouse [funciona=" + funciona + ", qtdbotoes=" + qtdbotoes + ", tamanho=" + tamanho + "]" + "\n";
