@@ -17,7 +17,7 @@ public class Aplicacao {
 //		resultado  = Matematica.subtrair(11, 11);
 //		System.out.println(resultado);
 		
-//		Contador contador1 = new Contador(); //
+//		Contador contador1 = new Contador(); 
 //		Contador contador2 = new Contador();
 //		Contador contador3 = new Contador();
 //		
