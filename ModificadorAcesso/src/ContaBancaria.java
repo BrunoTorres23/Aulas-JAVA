@@ -1,22 +1,22 @@
 
-public class ContaBancaria { // a classe n pode ser privada sen„o n vai instanciar
+public class ContaBancaria { // a classe n pode ser privada se n√£o n vai instanciar
 
-	private int numConta; // atributo foi privado, 
+	private int numConta; // atributo foi privado
 	private boolean ativo;
 	private double saldo;
 	
 	
-	
+	//conta bancario ativo se caso true ou falso por conta dele ser boolean, e a quant de saldo
 	public ContaBancaria() {
 		ativo = true;
 		saldo = 1.0;
 	}
 	public ContaBancaria(boolean ativo, double saldo) {
-		this.ativo = ativo; // o this diz q esse atributo È da classe
+		this.ativo = ativo; // o this diz q esse atributo √© da classe
 		this.saldo = saldo;
 	}
 	//metodo que recebe valores
-	public void receber (double valor) { // o metodo È capaz de ver o atributo privado
+	public void receber (double valor) { // o metodo √© capaz de ver o atributo privado
 		saldo += valor;
 		
 	}
