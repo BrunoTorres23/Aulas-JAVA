@@ -4,7 +4,8 @@ public class main {
 	public static void main(String[] args) {
 
 		Pessoa pessoa1 = new Pessoa(); // Instanceando objeto (ou criando) no caso "pessoa1"
-
+		
+		//pessoa tem o atributo nome, num de figurinhas e tem o metodo de receber 
 		pessoa1.nome = "Bruno";
 		pessoa1.Numfigurinhas = 4;
 
