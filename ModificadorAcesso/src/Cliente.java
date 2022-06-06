@@ -5,6 +5,7 @@ public class Cliente {
 	private int cpf;
 	private int numConta;
 	
+	//getters and setter e override
 	public Cliente()	{
 }
 
