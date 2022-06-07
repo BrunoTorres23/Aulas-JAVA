@@ -4,14 +4,16 @@ public class Bebida {
 	private String nome;
 	private boolean aquecer;
 	
+	//constructor 
 	public Bebida(String nome, boolean aquecer) {
 		super();
 		this.nome = nome;
 		this.aquecer = aquecer;
 	}
 	
+	//getters and setters
 	public void preparar () { 
-		System.out.println("Pegando o copo"); //fez com que simplificasse, ja que o copo é pego em ambas situações
+		System.out.println("Pegando o copo"); //fez com que simplificasse, ja que o copo Ã© pego em ambas situaÃ§Ãµes
 	}
 	
 	public String getNome() {
