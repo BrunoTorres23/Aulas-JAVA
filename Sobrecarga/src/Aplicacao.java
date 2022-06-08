@@ -4,28 +4,31 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner (System.in);
+		//scanner para o usuario poder escrever 
+		Scanner scanner = new Scanner (System.in); //System.in Ã© o que faz a leitura do que se escreve no teclado
 		
 		
 		matematica Matematica = new matematica();
 		
-		System.out.println("Somar dois números");
-		System.out.println("Digite o primeiro número: ");
-		int x = scanner.nextInt();
 		
-		System.out.println("Digite o segundo número: ");
+		
+		System.out.println("Somar dois nÃºmeros");
+		System.out.println("Digite o primeiro nÃºmero: ");
+		int x = scanner.nextInt();	//nextint faz retorno de inteiro
+		
+		System.out.println("Digite o segundo nÃºmero: ");
 		int y = scanner.nextInt();
 		
 		
-		
+		//soma vai ser o resultado matematico entre x e y
 		int soma = Matematica.somar(x, y);
-		System.out.println("o resultado é: " + soma + "!!!");
+		System.out.println("o resultado Ã©: " + soma + "!!!");
 		
 		soma = Matematica.somar(x, y, 5);
-		System.out.println("o resultado é: " + soma + "!!!");
+		System.out.println("o resultado Ã©: " + soma + "!!!");
 		
 		double soma2 = Matematica.somar(x, y);
-		System.out.println("o resultado é: " + soma2 + "!!!");
+		System.out.println("o resultado Ã©: " + soma2 + "!!!");
 	}
 
 }
