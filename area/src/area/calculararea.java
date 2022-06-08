@@ -1,6 +1,8 @@
 package area;
 
 public class calculararea {
+	
+	//calct para metodo de triangulo
 	double calcT(double b, double h);
 
 	{
@@ -9,7 +11,8 @@ public class calculararea {
 
 		return T;
 	}
-
+	
+	////calcq para metodo de quadrado
 	int calcQ(int B);
 
 	{
