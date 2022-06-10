@@ -7,7 +7,8 @@ public class main {
 //		int x = 100;
 //		double y = 200.3;
 //		int a = 0;
-//		double b = 0;
+//		double b = 0;		//aqui est√£o as variaveis declaradas//diferen√ßa entre short e int √© que short aceitam numeros de ate 16 bits
+					//o int tem espa√ßo maior para essas informa√ß√µes de 32
 //		short z = (short) 10000;
 //		System.out.println(z);
 //		
@@ -18,16 +19,16 @@ public class main {
 //		
 //		int idadePessoa = 61;
 //		
-//		if (idadePessoa < 18) {   //if: quando tiver mias de uma condiÁ„o
-//			System.out.println("VocÍ n„o pode beber");
+//		if (idadePessoa < 18) {   //if: quando tiver mais de uma condi√ß√£o
+//			System.out.println("Voc√™ n√£o pode beber");
 //		}
 //		else if(idadePessoa < 60) {
 //			System.out.println("Bora tomar uma");
 //		}else {
-//			System.out.println("quanto È a sua aposentadoria?");
+//			System.out.println("quanto √© a sua aposentadoria?");
 //		}
 //		
-//		System.out.println("VocÍ tem " + idadePessoa + " anos");
+//		System.out.println("Voc√™ tem " + idadePessoa + " anos");
 //		
 //		int num = 8;
 //		
@@ -39,7 +40,7 @@ public class main {
 //			System.out.println("Segunda");
 //			break;
 //		case 3:
-//			System.out.println("TerÁa");
+//			System.out.println("Ter√ßa");
 //			break;
 //		case 4:
 //			System.out.println("Quarta");
@@ -54,36 +55,36 @@ public class main {
 //			System.out.println("Sabado");
 //			break;
 //		default:
-//			System.out.println("Esse numero n„o representa um dia da semana!");
+//			System.out.println("Esse numero n√£o representa um dia da semana!");
 //		}
 		
 //		char caractere = 'c';
 //
 //		switch (caractere) {
 //		case 'a':
-//			System.out.println("Seu caractere È a");
+//			System.out.println("Seu caractere √© a");
 //			break;
 //		case 'b':
-//			System.out.println("Seu caractere È b");
+//			System.out.println("Seu caractere √© b");
 //			break;
 //		default:
-//			System.out.println("Valor inv·lido");
+//			System.out.println("Valor inv√°lido");
 //		}
 		
 //		String farol = "vermelho";
 //
-//		switch (farol) {  // Switch È escolha
+//		switch (farol) {  // Switch √© escolha
 //		case "vermelho":
 //			System.out.println("Pare!!!");
 //			break;
 //		case "amarelo":
-//			System.out.println("AtenÁ„o!!!");
+//			System.out.println("Aten√ß√£o!!!");
 //			break;
 //		case "verde":
 //			System.out.println("Siga!!!");
 //			break;
 //		default:
-//			System.out.println("valor inv·lido");
+//			System.out.println("valor inv√°lido");
 //		}
 		
 //		int x = 0;
@@ -100,7 +101,7 @@ public class main {
 		
 //		System.out.println("teste "+ x);
 		
-//		for(int x=1; x<10; x++) { // criaÁ„o da variavel , tem o comeÁo e fim ( sÛ conseguimos utilizar a variavel criada no "for" , apenas no "for".)
+//		for(int x=1; x<10; x++) { // cria√ß√£o da variavel , tem o come√ßo e fim ( s√≥ conseguimos utilizar a variavel criada no "for" , apenas no "for".)
 //			System.out.println(x);
 //		}
 //		
@@ -109,7 +110,7 @@ public class main {
 //		}
 
 //		Scanner entrada = new Scanner (System.in);
-//		System.out.println("Digite um n˙mero qualquer:");
+//		System.out.println("Digite um n√∫mero qualquer:");
 //		int y = entrada.nextInt();
 //		
 //		for(int x=0; x<10; x++) {
@@ -124,17 +125,17 @@ public class main {
 		System.out.println(y1);
 		System.out.println(z1);
 		
-		double x[] = { 3, 5, 3, 5 }; // Matriz tem 4 espaÁos
+		double x[] = { 3, 5, 3, 5 }; // Matriz tem 4 espa√ßos
 		
 		for(int aux = 0; aux < x.length; aux++) {
 			System.out.println("Valor do imdice " + aux + "=" + x[aux]);
 		}
-		String nome[] = {"Rafael", "Agatha", "Flavia"}; // determina que a matriz  tem 3 posiÁoes 
+		String nome[] = {"Rafael", "Agatha", "Flavia"}; // determina que a matriz  tem 3 posi√ßoes 
 		
 		for (int aux1 = 0; aux1 < nome.length; aux1++) {
 			System.out.println(nome[aux1]);
 			if (nome[aux1] == "Agatha") {
-				System.out.println("O Ìndice de Agatha È = " + aux1);
+				System.out.println("O √≠ndice de Agatha √© = " + aux1);
 				
 			}
 		}
@@ -149,7 +150,7 @@ public class main {
 		Scanner teclado = new Scanner(System.in);// instanciando o objeto
 		
 		for (int aux2=0; aux2 < numero.length; aux2++) { // length=Tamanho da variavel
-			System.out.println("Digite um n˙mero qualquer");
+			System.out.println("Digite um n√∫mero qualquer");
 			numero[aux2] = teclado.nextInt();
 		}
 		for (int aux2 = 0; aux2 < numero.length; aux2++) {
